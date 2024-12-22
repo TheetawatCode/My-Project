@@ -18,7 +18,7 @@ const FeaturedSection: React.FC = () => {
   return (
     <section className="py-16 bg-black text-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">Why Spotify?</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Why Choose Spotify?</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="text-center">
@@ -33,7 +33,7 @@ const FeaturedSection: React.FC = () => {
         <h2 className="text-3xl font-bold text-center mb-12">Featured Playlists & Albums</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {featuredItems.map((item, index) => (
-            <div key={index} className="text-center bg-gray-900 p-6 rounded-lg shadow-md">
+            <div key={index} className="text-center bg-gray-900 p-6 rounded-lg shadow-md hover:scale-105 transition-all duration-300">
               <img src={item.imageUrl} alt={item.title} className="w-full h-48 object-cover rounded-lg mb-4" />
               <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
               <p className="text-gray-400">{item.description}</p>
