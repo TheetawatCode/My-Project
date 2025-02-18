@@ -10,7 +10,7 @@ export const AboutSection: React.FC = () => {
                 </div>
                 <div className="flex flex-wrap -mx-4">
                     <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
-                        <img src="https://images.unsplash.com/photo-1629904853716-f0bc54eea481?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="About Us" className="w-full h-auto rounded-lg shadow-lg" />
+                        <img src="https://images.unsplash.com/photo-1537136102161-ea2262437412?q=80&w=2026&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="About Us" className="w-full h-auto rounded-lg shadow-lg" />
                     </div>
                     <div className="w-full md:w-1/2 px-4">
                         <h3 className="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h3>

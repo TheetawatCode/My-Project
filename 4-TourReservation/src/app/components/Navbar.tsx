@@ -2,10 +2,10 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="bg-gray-800 p-4">
+        <nav className="bg-gray-950 p-4">
             <div className="container mx-auto flex justify-between items-center">
                 <div className="text-white text-lg font-bold">
-                    <a href="/">Landing Page</a>
+                    <a href="/">AURORATOURS</a>
                 </div>
                 <ul className="flex space-x-4">
                     <li>
@@ -23,11 +23,11 @@ const Navbar: React.FC = () => {
                             About
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="/portfolio" className="text-gray-300 hover:text-white">
                             Portfolio
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="/blog" className="text-gray-300 hover:text-white">
                             Blog
