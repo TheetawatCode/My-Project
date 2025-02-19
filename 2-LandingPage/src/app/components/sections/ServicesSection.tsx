@@ -3,22 +3,22 @@ import React from 'react';
 const services = [
   {
     title: 'Web Development',
-    description: 'Building responsive and high-quality websites.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente veniam a nisi, labore laboriosam placeat optio ea molestiae quos eos est nihil magni vel tempora possimus omnis. Quidem, voluptates.',
     icon: '🌐',
   },
   {
     title: 'Mobile App Development',
-    description: 'Creating user-friendly mobile applications.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente veniam a nisi, labore laboriosam placeat optio ea molestiae quos eos est nihil magni vel tempora possimus omnis. Quidem, voluptates.',
     icon: '📱',
   },
   {
     title: 'UI/UX Design',
-    description: 'Designing intuitive and engaging user interfaces.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente veniam a nisi, labore laboriosam placeat optio ea molestiae quos eos est nihil magni vel tempora possimus omnis. Quidem, voluptates.',
     icon: '🎨',
   },
   {
     title: 'SEO Optimization',
-    description: 'Improving website visibility on search engines.',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente veniam a nisi, labore laboriosam placeat optio ea molestiae quos eos est nihil magni vel tempora possimus omnis. Quidem, voluptates.',
     icon: '🔍',
   },
 ];

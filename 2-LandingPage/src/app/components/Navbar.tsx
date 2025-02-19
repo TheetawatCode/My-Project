@@ -28,15 +28,15 @@ const Navbar: React.FC = () => {
                             Portfolio
                         </a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="/blog" className="text-gray-300 hover:text-white">
                             Blog
                         </a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                         <a href="/pricing" className="text-gray-300 hover:text-white">
                             Pricing
-                        </a>
+                        </a> */}
                     </li>
                     <li>
                         <a href="/contact" className="text-gray-300 hover:text-white">
