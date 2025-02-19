@@ -5,14 +5,14 @@ const pricingPlans = [
     title: 'Basic',
     price: '$19',
     features: ['Feature 1', 'Feature 2', 'Feature 3'],
-    buttonText: 'Get Started',
+    buttonText: 'Contact Us',
     buttonLink: '#'
   },
   {
     title: 'Pro',
     price: '$49',
     features: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4'],
-    buttonText: 'Get Started',
+    buttonText: 'Contact Us',
     buttonLink: '#'
   },
   {

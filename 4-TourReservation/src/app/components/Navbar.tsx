@@ -28,11 +28,11 @@ const Navbar: React.FC = () => {
                             Portfolio
                         </a>
                     </li> */}
-                    <li>
+                    {/* <li>
                         <a href="/blog" className="text-gray-300 hover:text-white">
                             Blog
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="/pricing" className="text-gray-300 hover:text-white">
                             Pricing
@@ -41,6 +41,11 @@ const Navbar: React.FC = () => {
                     <li>
                         <a href="/contact" className="text-gray-300 hover:text-white">
                             Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/gallery" className="text-gray-300 hover:text-white">
+                            Gallery
                         </a>
                     </li>
                 </ul>
