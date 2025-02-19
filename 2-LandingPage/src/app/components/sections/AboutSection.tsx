@@ -21,7 +21,10 @@ export const AboutSection: React.FC = () => {
                         <p className="text-gray-600 mb-4">
                             We believe in integrity, innovation, and customer satisfaction. Our team works tirelessly to ensure that we deliver the best results for our clients.
                         </p>
-                        <button className="bg-indigo-600 text-white py-2 px-6 rounded-md text-lg font-medium hover:bg-indigo-700 transition duration-300">
+                        <button 
+                            buttonLink="#"
+                            className="bg-indigo-600 text-white py-2 px-6 rounded-md text-lg font-medium hover:bg-indigo-700 transition duration-300">
+                            
                             Learn More
                         </button>
                     </div>
