@@ -6,7 +6,8 @@ export const HeroSection: React.FC = () => {
       <div className="flex flex-col items-center justify-center h-full px-4 text-center bg-black bg-opacity-50">
         <h1 className="mb-4 text-5xl font-bold text-white md:text-6xl">Experience the Magic of the Aurora</h1>
         <p className="mb-8 text-lg text-white md:text-xl">Discover the beauty of the Northern Lights in the most extraordinary locations, with luxury accommodations and unforgettable activities</p>
-        <button className="px-6 py-2 text-md font-medium text-white transition duration-300 bg-indigo-600 rounded-md hover:bg-indigo-700">
+        <button 
+          className="px-6 py-2 text-md font-medium text-white transition duration-300 bg-indigo-600 rounded-md hover:bg-indigo-700">
           Contact Us
         </button>
       </div>
