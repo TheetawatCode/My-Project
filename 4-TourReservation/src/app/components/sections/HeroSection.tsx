@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => {
         <div className="flex space-x-4">
           <Link href="/contact">
             <button className="px-8 py-3 text-md font-semibold text-black transition duration-300 bg-white rounded-md hover:bg-gray-200">
-              Book Now
+              Contact Us
             </button>
           </Link>
           <Link href="/about">
