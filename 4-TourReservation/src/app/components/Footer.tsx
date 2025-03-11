@@ -37,7 +37,11 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-gray-500">
-          &copy; {new Date().getFullYear()} AuroraTours. All rights reserved.
+          &copy; {new Date().getFullYear()}&nbsp;
+          <a href="/"
+            className="hover:text-gray-300"
+            title="AuroraTours"
+          >AuroraTours</a>. All rights reserved.
         </div>
       </div>
     </footer>
