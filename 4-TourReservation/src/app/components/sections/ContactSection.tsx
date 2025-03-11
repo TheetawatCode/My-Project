@@ -5,12 +5,21 @@ export const ContactSection: React.FC = () => {
     <section className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">Contact Us</h2>
-        <div className="flex flex-wrap -mx-4">
-          <div className="w-full lg:w-1/2 px-4 mb-8 lg:mb-0">
-            <img src="https://images.unsplash.com/photo-1587560699334-cc4ff634909a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Contact Us" className="rounded-lg shadow-lg w-full h-full object-cover" />
+        <div className="flex flex-wrap lg:flex-nowrap items-stretch -mx-4">
+          {/* Image Section */}
+          <div className="w-full lg:w-1/2 px-4 flex">
+            <div className="w-full h-full">
+              <img 
+                src="https://images.unsplash.com/photo-1587560699334-cc4ff634909a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                alt="Contact Us" 
+                className="rounded-lg shadow-lg w-full h-full object-cover"
+              />
+            </div>
           </div>
-          <div className="w-full lg:w-1/2 px-4">
-            <div className="bg-white p-8 rounded-lg shadow-lg">
+
+          {/* Form Section */}
+          <div className="w-full lg:w-1/2 px-4 flex">
+            <div className="bg-white p-8 rounded-lg shadow-lg w-full h-full flex flex-col justify-center">
               <form className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
@@ -41,12 +50,13 @@ export const ContactSection: React.FC = () => {
                 </div>
                 <div className="text-center">
                   <button type="submit" className="bg-blue-500 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition duration-300">
-                    Send Message
+                    Submit
                   </button>
                 </div>
               </form>
             </div>
           </div>
+
         </div>
       </div>
     </section>

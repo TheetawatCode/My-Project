@@ -35,7 +35,7 @@ export const ServicesSection: React.FC = () => {
                 <img src={item.imageUrl} alt={item.title} className="w-full h-48 object-cover" />
                 <div className="flex flex-col p-8 flex-grow">
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">{item.title}</h3>
-                  <p className="text-gray-600 flex-grow">{item.description}</p>
+                  <p className="text-gray-600 flex-grow lg:text-md">{item.description}</p>
                 </div>
               </div>
             </div>
