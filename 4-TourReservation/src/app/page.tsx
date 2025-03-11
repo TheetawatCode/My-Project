@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <div>
       <HeroSection />
-      <ServicesSection />
       <AboutSection />
+      <ServicesSection />
       {/* <PortfolioSection /> */}
       {/* <PricingSection /> */}
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <ContactSection />
       <GallerySection />
-      <BlogSection />
+      {/* <BlogSection /> */}
     </div>
   );
 }

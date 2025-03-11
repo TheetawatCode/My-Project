@@ -6,8 +6,8 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="text-xl font-bold text-white mb-4">Landing Page</h3>
-            <p className="text-gray-400">Providing the best services to help you grow your business.</p>
+            <h3 className="text-xl font-bold text-white mb-4">AuroraTours</h3>
+            <p className="text-gray-400">Providing the best travel experiences.</p>
           </div>
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
@@ -24,6 +24,9 @@ const Footer: React.FC = () => {
               <li className="mb-2">
                 <a href="/contact" className="hover:text-white transition duration-300">Contact</a>
               </li>
+              <li className="mb-2">
+                <a href="/gallery" className="hover:text-white transition duration-300">Gallery</a>
+              </li>
             </ul>
           </div>
           <div className="w-full md:w-1/3">
@@ -34,7 +37,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mt-8 text-center text-gray-500">
-          &copy; {new Date().getFullYear()} Landing Page. All rights reserved.
+          &copy; {new Date().getFullYear()} AuroraTours. All rights reserved.
         </div>
       </div>
     </footer>

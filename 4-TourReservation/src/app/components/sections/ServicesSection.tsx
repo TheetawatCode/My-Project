@@ -30,11 +30,11 @@ export const ServicesSection: React.FC = () => {
         <h2 className="text-4xl font-bold text-center mb-12 text-white">Our Services</h2>
         <div className="flex flex-wrap -mx-4">
           {servicesData.map((item, index) => (
-            <div key={index} className="w-full md:w-1/2 lg:w-1/4 px-4 mb-8">
+            <div key={index} className="w-full md:w-1/2 lg:w-1/4 px-3 mb-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 hover:shadow-2xl">
                 <img src={item.imageUrl} alt={item.title} className="w-full h-48 object-cover" />
-                <div className="p-6">
-                  <h3 className="text-2xl font-semibold text-gray-800 mb-2">{item.title}</h3>
+                <div className="p-8">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2 md:text-lg lg:text-lg">{item.title}</h3>
                   <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
