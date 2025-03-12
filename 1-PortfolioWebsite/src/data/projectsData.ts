@@ -27,19 +27,30 @@ export const projectsData: Project[] = [
   {
     id: 2,
     title: "Landing Page",
-    status: "In Progress",
+    status: "Active",
     description:
-      "A landing page built with Next.js, TypeScript, JavaScript and TailwindCSS v4.0",
+      "A landing page built with Next.js, TypeScript, JavaScript and TailwindCSS",
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    technologies: ["Next.js", "TypeScript", "JavaScript", "TailwindCSS"],
-    githubLink: "/",
-    liveDemo: "/",
+    technologies: ["Next.js", "TypeScript", "JavaScript", "TailwindCSS", "Preline UI"],
+    githubLink: "https://github.com/TheetawatCode/My-Project/tree/main/2-LandingPage",
+    liveDemo: "https://theetawat-landing-page.vercel.app/",
   },
   // https://images.unsplash.com/photo-1509725100077-6109f44ea148?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   {
     id: 3,
+    title: "Tour Reservation Website",
+    status: "In Progress..",
+    description:
+      "A tour reservation website built with Next.js, TypeScript, JavaScript and TailwindCSS v4.0",
+    image: "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    technologies: ["Next.js", "TypeScript", "JavaScript", "TailwindCSS"],
+    githubLink: "https://github.com/TheetawatCode/My-Project/tree/main/4-TourReservation",
+    liveDemo: "https://theetawat-tour-reservation.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Blog",
-    status: "Coming Soon",
+    status: "In Progress..",
     description:
       "A personal blog website built with Next.js, TypeScript, JavaScript and TailwindCSS v4.0",
     image: "https://images.unsplash.com/photo-1581357825453-2ca9d6fbaa3f?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -48,20 +59,9 @@ export const projectsData: Project[] = [
     liveDemo: "/",
   },
   {
-    id: 4,
-    title: "Tour Reservation Website",
-    status: "Coming Soon",
-    description:
-      "A tour reservation website built with Next.js, TypeScript, JavaScript and TailwindCSS v4.0",
-    image: "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    technologies: ["Next.js", "TypeScript", "JavaScript", "TailwindCSS"],
-    githubLink: "/",
-    liveDemo: "/",
-  },
-  {
     id: 5,
     title: "E-Learning Platform",
-    status: "Coming Soon",
+    status: "Coming Soon!",
     description:
       "An e-learning platform built with Next.js, TypeScript, JavaScript and TailwindCSS v4.0",
     image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -72,7 +72,7 @@ export const projectsData: Project[] = [
   {
     id: 6,
     title: "E-Commerce Platform",
-    status: "Coming Soon",
+    status: "Coming Soon!",
     description:
       "An e-commerce platform built with Next.js, TypeScript, JavaScript and TailwindCSS v4.0",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
