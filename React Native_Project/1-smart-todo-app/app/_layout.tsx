@@ -4,6 +4,9 @@ import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
+import { useTodoStore } from "@src/store/todoStore";
+import { useEffect } from "react";
+
 
 export const unstable_settings = {
   anchor: '(tabs)',
@@ -11,6 +14,12 @@ export const unstable_settings = {
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
+
+  const hydrate = useTodoStore((s) => s.hydrate);
+
+  useEffect(() => {
+    if (hydrate) hydrate();
+  }, [hydrate]);
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
